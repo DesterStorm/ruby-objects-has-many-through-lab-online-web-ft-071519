@@ -33,5 +33,3 @@ end
 
 
 
-[#<Song:0x00000000016f32f8 @name="Ninety Nine Problems", @genre=#<Genre:0x00000000016f3370 @name="rap", @songs=[#<Song:0x00000000016f32f8 ...>]>>]
-
