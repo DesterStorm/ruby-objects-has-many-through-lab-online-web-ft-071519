@@ -42,7 +42,7 @@ describe 'Patient' do
       expect(steve.appointments).to include(appointment_2)
       expect(steve.appointments).to_not include(appointment_3)
       expect(mike.appointments).to include(appointment_3)
-    end
+    
     end
   end
 
