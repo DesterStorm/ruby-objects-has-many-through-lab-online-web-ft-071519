@@ -15,7 +15,10 @@ class Artist
   end
   
   def self.all 
-    @@all
+    # @@all
+    Song.all.select do |song|
+      song.artist = self
+    end
   end
   
   def songs
@@ -24,7 +27,7 @@ class Artist
   
   def new_song(name, genre)
     new_song = Song.new(name, self, genre)
-    @songs << new_song
+    # @songs << new_song
   end
   
   def genres 
