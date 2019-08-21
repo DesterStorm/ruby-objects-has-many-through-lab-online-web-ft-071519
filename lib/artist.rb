@@ -22,7 +22,7 @@ class Artist
   end
   
   def new_song(name, genre, artist)
-    new_song = Song.new(name, genre, artist)
+    new_song = Song.new(name, genre)
   end
   
   def genres 
