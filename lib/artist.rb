@@ -22,7 +22,7 @@ class Artist
     @songs
   end
   
-  def new_song(name, genre)
+  def new_song
     # new_song = Song.new(name, genre, artist = nil)
     @songs << new_song
   end
