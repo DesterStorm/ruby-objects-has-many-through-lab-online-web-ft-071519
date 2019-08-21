@@ -43,6 +43,7 @@ describe 'Patient' do
       expect(steve.appointments).to_not include(appointment_3)
       expect(mike.appointments).to include(appointment_3)
     end
+    end
   end
 
   describe '#doctors' do
