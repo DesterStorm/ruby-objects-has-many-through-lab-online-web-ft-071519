@@ -21,7 +21,7 @@ class Artist
     @songs
   end
   
-  def new_song 
+  def new_song(song, artist)
     artist.song = Song.new(artist)
   end
   
